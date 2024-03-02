@@ -16,6 +16,7 @@ class ElectricalNAHandler(BaseEstimator, TransformerMixin):
         return self
     
     def transform(self, X):
+        
         # Replace "NA" with a string representing missing values
         X[self.variable] = X[self.variable].replace('NA', 'MISSING')
         return X
