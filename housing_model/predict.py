@@ -88,7 +88,7 @@ if __name__ == "__main__":
     'HeatingQC': ['TA'],
     'CentralAir': ['N'],
     'Electrical': ['SBrkr'],
-    'FirstFlrSF': [581],
+    'FirststFlrSF': [581],
     'SecondFlrSF': [530],
     'LowQualFinSF': [0],
     'GrLivArea': [1111],

@@ -2,10 +2,10 @@
 FROM python:3.10
 
 # copy application files
-ADD /titanic_model_api /titanic_model_api/
+ADD /housing_model_api /housing_model_api/
 
 # specify working directory
-WORKDIR /titanic_model_api
+WORKDIR /housing_model_api
 
 # update pip
 RUN pip install --upgrade pip

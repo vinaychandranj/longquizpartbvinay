@@ -77,7 +77,7 @@ class DataInputSchema(BaseModel):
     HeatingQC: Optional[str]
     CentralAir: Optional[str]
     Electrical: Optional[str]
-    FirststFlrSF: Optional[int]
+    FirstFlrSF: Optional[int]
     SecondFlrSF: Optional[int]
     LowQualFinSF: Optional[int]
     GrLivArea: Optional[int]
